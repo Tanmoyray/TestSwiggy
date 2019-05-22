@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: MyRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.21 sec <<< FAILURE!
+Then add Two Biriyani(Scenario: Search Location)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError
+	at StepDefinitions.SwiggyStepDefination.add_Two_Biriyani(SwiggyStepDefination.java:31)
+	at ?.Then add Two Biriyani(Swiggy.feature:10)
+
+Scenario: Search Location  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError
+	at StepDefinitions.SwiggyStepDefination.add_Two_Biriyani(SwiggyStepDefination.java:31)
+	at ?.Then add Two Biriyani(Swiggy.feature:10)
+
