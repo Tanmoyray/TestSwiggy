@@ -1,0 +1,100 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Search Location",
+        "description": "",
+        "id": "food-order;search-location",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 428369383,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open url:www.swiggy.com",
+            "match": {
+              "location": "SwiggyStepDefination.open_url_www_swiggy_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29235,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search with Kolkata",
+            "match": {
+              "location": "SwiggyStepDefination.search_with_Kolkata()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30815,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Search Resturent with Arsanal biryani",
+            "match": {
+              "location": "SwiggyStepDefination.search_Resturent_with_Arsanal_biryani()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19358,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Find Mughal Arsalan Biryani",
+            "match": {
+              "location": "SwiggyStepDefination.find_Mughal_Arsalan_Biryani()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20148,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "add Two Biriyani",
+            "match": {
+              "location": "SwiggyStepDefination.add_Two_Biriyani()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60444,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Checkout button",
+            "match": {
+              "location": "SwiggyStepDefination.click_on_Checkout_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Food Order",
+    "description": "",
+    "id": "food-order",
+    "keyword": "Feature",
+    "uri": "Swiggy.feature"
+  }
+]

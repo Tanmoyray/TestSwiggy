@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 		features ="C:\\Users\\tanmoyrayvst\\eclipse-workspace\\TestCucumber\\src\\test\\java\\Features",
 		glue= "StepDefinitions",
 		tags = {"@smokeTest"},
-		plugin= {"pretty","html:test-output"},
+		//plugin= {"pretty","html:test-output"},
+		plugin= {"pretty","html:target/cucumber","json:target/cucumber.json"},
 		dryRun= false ,
 		monochrome = true,
 		strict=false
