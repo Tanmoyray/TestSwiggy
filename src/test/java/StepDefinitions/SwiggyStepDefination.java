@@ -28,7 +28,7 @@ public class SwiggyStepDefination {
 
 	@Then("^add Two Biriyani$")
 	public void add_Two_Biriyani() throws Throwable {
-		assert asserttrue(false);
+		//assert asserttrue(false);
 	}
 	
 	private boolean asserttrue(boolean b) {
